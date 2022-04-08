@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deathly Hallows</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            
+            <div class="container-fluid">
+                
+                <div class="navbar-header">               
+                    <a class="navbar-brand" href="#">
+                        
+                        <img src="deathly_hallows.jpeg" width="30" height="30" class="d-inline-block align-top" alt="" m-3px>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        
+                        Deathly Hallows 
+                    </a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">John Potter</a></li>
+                    <li><a href="#">Amal Granger</a></li>
+                    <li><a href="#">Roshan Weasley</a></li>
+                    <li><a href="#">Drake Malfoy</a></li>
+                    <li><a href="#">Cimon Diggory</a></li>
+
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </nav><br>
+        <div class="container">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img1.jpg" alt="Harry1" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="img2.jpg" alt="Harry2" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="img3.jpg" alt="Harry3" style="width:100%;">
+                    </div>
+            
+                </div>
+
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div><br>
+
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 " style="border: 2px solid black;">
+            <h3 class="text text-primary" style="text-align: center">Registration Form</h3>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="abc@gmail.com">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Andhra Pradesh</option>
+                            <option>Tamil nadu</option>
+                            <option>Kerala</option>
+                            <option>Karnataka</option>
+                            <option>Maharastra</option>
+                            <option>Haryana</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+                <br><br>
+            </form>
+        </div>
+        <br>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="bg-primary">
+                        <th>S.No.</th>
+                        <th>Reg.No.</th>
+                        <th>Name of the participant</th>
+                        <th>Favourite Show</th>
+                        <th>Favourite Character</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>URK19CS1002</td>
+                        <td>Amal THOMAS</td>
+                        <td>Meteor Garden</td>
+                        <td>Daomings si</td>
+                        
+                    </tr>      
+                    <tr>
+
+                        <td>2.</td>
+                        <td>URK19CS1003</td>
+                        <td>Roshan SUSAN ABRAHAM</td>
+                        <td>Naruto</td>
+                        <td>Kakashi</td>
+                        
+                    </tr>
+                    <tr>
+
+                        <td>3.</td>
+                        <td>URK19CS1004</td>
+                        <td>Basil SAI</td>
+                        <td>Freinds</td>
+                        <td>Monica</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>URK18CS082</td>
+                        <td>Scaria NISHANTH</td>
+                        <td>Money Heist</td>
+                        <td>Raquel Murillo</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>URK19CS1005</td>
+                        <td>Sona CHARIS</td>
+                        <td>Stranger Things</td>
+                        <td>Elevan</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
